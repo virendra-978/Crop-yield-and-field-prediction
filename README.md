@@ -11,10 +11,6 @@ A simple Python application with a GUI (built using Tkinter) that predicts crop 
 - Upload test data and predict crop yield (in tones/acre) and total production (in KGs).
 - User-friendly GUI built with Tkinter.
 
-## 📷 GUI Preview
-
-> A desktop interface allows easy interaction without writing code!
-
 ## 🛠️ Libraries Required
 
 - `numpy`
@@ -27,7 +23,7 @@ A simple Python application with a GUI (built using Tkinter) that predicts crop 
 ```
 CropYieldPrediction/
 │
-├── main.py               # The main Python GUI application
+├── field_prediction.py               # The main Python GUI application
 ├── Dataset/              # Folder to store your CSV files (training and test)
 ├── README.md             # Project documentation (this file)
 ```
@@ -63,11 +59,6 @@ python main.py
 Test Record 1: Production = 1200.00 KGs
 Yield = 1.20 tones/acre
 ```
-
-## 📌 Notes
-
-- Ensure your test CSV matches the structure and encoding of the training data.
-- Missing values are automatically filled with zero during upload.
 
 ## 🧠 Model Info
 
